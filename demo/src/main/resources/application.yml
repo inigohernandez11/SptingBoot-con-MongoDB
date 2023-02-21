@@ -3,3 +3,8 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017
       database: local
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui-custom.html
+    operationsSorter: method
